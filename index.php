@@ -25,6 +25,16 @@ $html .= '</table>';
 return $html;
 }
 
+<!DOCTYPE html>
+<html>
+
+<style type = "text/css">
+table{
+    border-collapse: collapse;
+    }
+</style>
+</html>
+
 $array = array( 
 	array('key'=>'word1', 'value'=>1),
 	array('key'=>'word2', 'value'=>2),
